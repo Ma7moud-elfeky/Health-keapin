@@ -1,0 +1,152 @@
+/*================================Satrt the large screens=========================*/
+@media (min-width:1201px ) and (max-width: 1440px)
+{
+   
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+   
+}
+/*this is property for an search button only*/
+@media(max-width: 1999px)and (min-width: 768px)
+{
+ 
+}
+/*==============================Start the screen of tablet=========================*/
+@media (min-width: 993px) and (max-width: 1024px)
+{
+    .success .container .after-befor .af {
+        left: 150px;
+        top: 200px;
+    }
+}
+@media(max-width:991px) {
+    .navbar .navbar-content{
+        padding: 10px;
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+        top: 90px;
+        right: -100%;
+        background-color: #fff;
+        transition: all .3s linear;
+    }
+    .navbar .navbar-content{
+        border: 1px solid #dedede;
+        border-top: none;
+        border-left: none;
+        box-shadow: 0 1 2 rgb(0, 0 , 0,.1);
+    }
+    .navbar .toggle-btn{
+        opacity: 1 !important;
+    }
+    .navbar .toggle-btn i{
+        display: block;
+    }
+    .navbar .container .navbar-nav{
+        padding: 20px;
+    }
+    .navbar .container .navbar-nav li{
+        flex-direction: column;
+    }
+    .active-nav{
+        right:0px !important
+    }
+    .success .container .after-befor .af {
+        left: 120px;
+        top: 200px;
+    }
+    .people-need .container .content .box{
+        margin-bottom: 10px;
+    }
+    section .container .semicirced-box {
+        margin-bottom: 10px;
+    }
+    
+   .visit .container .heading .img-content img {
+       width: 50%;
+   }
+}
+@media(max-width:425px){
+    .container{
+        margin: 0;
+        width: 100% !important;
+    }
+    .request .container .content {
+        left: 0px;
+    }
+    .form .container .btn{
+        padding: 10 10px;
+        width: fit-content;
+    }
+    .success .container .after-befor{
+        margin-bottom: 100px;
+    }
+    .success .container .content{
+        margin-top: 100px;
+    }
+    header .content{
+        margin:100px 0;
+        padding: 10px;
+    }
+    .dont-wait .container .semicirced-box .box-content .icon i {
+        top: -35px;
+        left: 170px;
+    }
+}
+@media(max-width:375px){
+    .news .container .semicirced-box .box-content .icon i {
+        top: -35px;
+        left: 120px;
+    }
+    .success .container .after-befor .af {
+        left: 55px;
+    }
+
+}
+@media(max-width:320px){
+    .news .container .semicirced-box .box-content .icon i {
+        top: -35px;
+        left: 100px;
+    }
+    .dont-wait .container .semicirced-box .box-content .icon i {
+        top: -35px;
+        left: 130px;
+    }
+    .success .container .after-befor .af {
+        left: 60px;
+        top: 190px;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px)
+{
+    
+}
+/*==============================Start the screen of mobbile=========================*/
+@media (min-width: 577px) and (max-width: 768px)
+{
+  
+
+}
+@media(min-width: 426px) and (max-width: 576px)
+{
+    
+   
+}
+@media (min-width: 376px) and (max-width: 425px)
+{
+  
+}
+@media (min-width: 321px) and (max-width: 375px)
+{
+    
+}
+@media (max-width: 320px)
+{
+   
+    
+}
